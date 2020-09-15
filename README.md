@@ -1,11 +1,11 @@
 ## RPPT
 This repository containts the data files used in the computational experiments in the working paper
 
-> Domínguez, C., Labbé, M., & Marin, A. (2020). The Rank Pricing Problem with Ties.
+> Domínguez, C., Labbé, M., & Marín, A. (2020). The Rank Pricing Problem with Ties.
 
 ## Citation
 
-If you use the code and/or data in this repository in your own research, please cite the above paper.
+If you use the data in this repository in your own research, please cite the above paper.
 
 ## License 
 
@@ -36,7 +36,7 @@ SOFTWARE.
 This repository contains one directory:
 
 + `RPPT_DATA`: Contains the data files used in the numerical experiments:
-  + `RPPT_DATA_K*_I**_NPREF***_TIES****INS*****`: contains data for synthetic data instances (see Section 8 of Domínguez et al.), where `*`, `**`, `***` and `****` are the values of *`|K|`*, *`|I|`*, *`n`* and *Ties*, respectively, and  `*****` indicates the number of the instance (there are 5 randomly generated instances for each combination of parameters). Each file includes:
+  + `RPPT_DATA_K*_I**_NPREF***_TIES****_INS*****`: contains data for synthetic data instances (see Section 8 of Domínguez et al.), where `*`, `**`, `***` and `****` are the values of *`|K|`*, *`|I|`*, *`n`* and *Ties*, respectively, and  `*****` indicates the number of the instance (there are 5 randomly generated instances for each combination of parameters). Each file includes:
    + K : Number of customers (`|K|` in the paper),
    + I : Number of products (`|I|` in the paper),
    + PREFERENCES : The preference matrix, where entrance `(k,i) = n` if product `i \in S^k_n`, and `(k,i) = 0` if product `i \notin I^k`.
